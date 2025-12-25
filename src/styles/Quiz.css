@@ -1,0 +1,65 @@
+.quiz-container {
+  background: var(--container-bg);
+  border:1px solid var(--border);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  
+  transition: 0.3s ease-in-out;
+}
+
+/* Option card */
+.option {
+  background: var(--container-bg);
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow) 0px 1px 2px 0px;
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.option:not(.correct):not(.incorrect):hover {
+  border: 2px solid var(--hover-border) !important;
+  background-color: var(--hover-bg) !important;
+  margin-left: 5px;
+}
+
+/* Correct answer */
+.option.correct {
+  border: 2px solid var(--correct-border) !important;
+  background-color: var(--correct-bg) !important;
+  color: var(--text);
+}
+
+/* Incorrect answer */
+.option.incorrect {
+  border: 2px solid var(--incorrect-border) !important;
+  background-color: var(--incorrect-bg) !important;
+  color: var(--text);
+}
+
+/* Disabled options */
+.disabled-options {
+  pointer-events: none;
+}
+
+/* Right + Wrong answer labels */
+.right-answer {
+  background-color: var(--correct-bg);
+  color: var(--correct-border);
+}
+
+.wrong-answer {
+  background-color: var(--incorrect-bg);
+  color: var(--incorrect-border);
+}
+
+/* Button styling */
+.custom-btn {
+  background: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+  border: none !important;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.custom-btn:hover {
+  margin-top: 5px;
+}

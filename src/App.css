@@ -1,0 +1,7 @@
+.app-content{
+    background: radial-gradient(circle at bottom left, #22CBD4 0%,transparent 20%),
+                radial-gradient(circle at top right, #895AF6 0%,transparent 20%); 
+    overflow-y: auto;
+    height: calc(100vh - 70px);   
+   
+}

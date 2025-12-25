@@ -1,0 +1,29 @@
+.category-btn {
+  border: 2px solid var(--border);
+  background: var(--button-backround);
+  color: var(--color);
+  border-radius: 6px;
+  padding: 5px 15px;
+  transition: 0.2s;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  gap: 30px;
+
+}
+
+.category-btn:hover {
+  border-color: #8833ee;
+}
+
+.active-category {
+  background: #8833ee;
+  color: #fff;
+  border-color: #8833ee;
+  transform: scale(1.05);
+}
+.question-count{
+  border: 1px solid var(--border);
+}

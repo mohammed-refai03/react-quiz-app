@@ -1,0 +1,67 @@
+/* Light Theme Variables */
+body.light {
+  --bg: #ffffff;
+  --text: #000000;
+
+  --container-bg: #ffffff;
+  --border: #cac8c8;
+
+
+  --correct-bg: #E2F9EB;
+  --correct-border: #1CCA5B;
+
+  --incorrect-bg: #FCEBEC;
+  --incorrect-border: #EF4343;
+
+  --hover-bg: #ca88ca2b;
+  --hover-border: #895AF6;
+  
+
+  --btn-bg: #8829ed;
+  --btn-text: #fff;
+
+  --progress-background:#EDEDF2
+}
+
+
+body.dark {
+  --bg: #101018;
+  --text: #f5f5f5;
+
+  --container-bg: #181825;
+  --border: #3d3d4f;
+
+  --shadow: #ffffff0d;
+
+  --correct-bg: #163a2c;
+  --correct-border: #1CCA5B;
+
+  --incorrect-bg: #38222f;
+  --incorrect-border: #DC2828;
+
+  --hover-bg: #2b3550;
+  --hover-border: #895AF6;
+
+  --btn-bg: #6b21a8;
+  --btn-text: #fff;
+
+  --progress-background:#282836;
+}
+body.dark .text-muted{
+    color: #cbd5e1 !important;
+}
+body.dark .bg-light{
+    background-color: #2f2f4fc6 !important;
+}
+
+body {
+  font-family: "Inter",sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s ease-in-out;
+  margin: 0;
+  padding-top: 70px;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-color: var(--btn-bg) var(--container-bg); 
+}
