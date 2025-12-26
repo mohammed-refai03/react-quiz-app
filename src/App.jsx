@@ -1,6 +1,6 @@
 import React, { useContext} from 'react'
 import './App.css'
-import Quiz from './components/quiz'
+import Quiz from './components/Quiz'
 import Navbar from './components/Navbar'
 import Result from './components/Result';
 import Progressbar from './components/Progressbar';
